@@ -140,18 +140,19 @@
 }
 
 .Container-skills {
-    margin: 10%;
+    position: relative;
 }
 
-#skillsrow {
-    align-content: center;
-}
 
 .Cont-skills {
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
     padding: 1em;
     margin: 10px;
     background-color: #913636;
-    border-radius: 5%;
+    border-radius: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -179,6 +180,10 @@
     color: white;
 }
 
+.explab{
+    position: relative;
+}
+
 .titexp {
     text-align: center;
     font-size: 30px;
@@ -187,13 +192,15 @@
 }
 
 .box-exp {
-    height: 600px;
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    margin: 5%;
+    height: 500px;
     background-color: #913636;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
 }
 
 .exptit {
@@ -210,6 +217,7 @@
 }
 
 .empresatit {
+    text-align: center;
     padding: 10px;
     color: white;
 }
@@ -231,33 +239,21 @@
 
 header {
     color: white;
-    margin: 0;
 }
 
 #menu {
-    align-items: center;
-    text-align: center;
     position: fixed;
-
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-nav {
-    align-items: center;
-    text-align: justify;
+#menu ul li{
+   display: inline-block;
 }
-
-#menu ul li {
-    padding-top: 5%;
-}
-
 #menu ul li a {
-    display: inline-block;
-    position: relative;
-    color: white;
-    text-decoration: none;
+    color: black;
     line-height: 60px;
-    padding: 0 8px;
-    text-transform: uppercase;
     transition: .2s;
 }
 
