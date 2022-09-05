@@ -2,9 +2,12 @@
     margin: 0;
 }
 
-.margen {
-    margin: 10%;
-}
+body {
+    background-image: url(../img/fondo.jpg);
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 
 .Container-title {
     text-align: center;
@@ -86,14 +89,14 @@
 
 .container-aboutme {
     text-justify: auto;
-    margin: 0 auto 1rem;
-    padding: 5em 0 1em;
+    margin: 10%;
+    padding: 2em 0 1em;
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, .05);
 }
 
 .titabout {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     color: white;
 }
 
@@ -133,7 +136,6 @@
 }
 
 .titlecon {
-    padding: 1em;
     color: white;
     text-align: center;
 
@@ -141,14 +143,11 @@
 
 .Container-skills {
     position: relative;
+    margin: 10%;
 }
 
 
 .Cont-skills {
-    display: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
     padding: 1em;
     margin: 10px;
     background-color: #913636;
@@ -182,6 +181,8 @@
 
 .explab{
     position: relative;
+    margin: 10%;
+    
 }
 
 .titexp {
@@ -192,9 +193,7 @@
 }
 
 .box-exp {
-    display: absolute;
-    top: 50%;
-    left: 50%;
+    margin: 5px;
     transform: translate(-50% -50%);
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -237,15 +236,13 @@
     padding-right: 10%;
 }
 
-header {
-    color: white;
+header{
+    display: fixed;
+    align-content: center;
+    text-align: center;
 }
-
 #menu {
-    position: fixed;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
 }
 
 #menu ul li{
