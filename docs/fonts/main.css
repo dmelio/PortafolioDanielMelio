@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
 }
 
 body {
@@ -43,7 +43,9 @@ body {
     height: 300px;
     border-radius: 15%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    align-content: flex-end;
+}
+.contimg2{
+    align-items: center;
 }
 
 #btncv {
@@ -197,7 +199,7 @@ body {
     transform: translate(-50% -50%);
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    height: 500px;
+    height: fit-content;
     background-color: #913636;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
