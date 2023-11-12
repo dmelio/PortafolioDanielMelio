@@ -14,12 +14,13 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, .05);
 }
 
-.Container-title h5 {
+.Container-title h3 {
     color: white;
 }
 
 .Container-title h2 {
     color: white;
+    font-size: calc(3.325rem + 2vw);
 }
 
 #btncv {
@@ -39,8 +40,8 @@ body {
 }
 
 .img2port {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 70%;
     border-radius: 15%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -90,7 +91,6 @@ body {
 }
 
 .container-aboutme {
-    text-justify: auto;
     margin: 10%;
     padding: 2em 0 1em;
     text-align: center;
@@ -103,6 +103,7 @@ body {
 }
 
 .cont-presentacion {
+    width: 97%;
     text-align: justify;
     padding: 1em;
     border-bottom: 1px solid rgba(0, 0, 0, .05);
@@ -117,10 +118,10 @@ body {
 }
 
 .exp {
-    margin: 10%;
     align-self: center;
-    background-color: #913636;
-    height: 180px;
+    background-color: rgba(146, 4, 4, 0.15);
+    height: 100%;
+    width: 90%;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -151,8 +152,9 @@ body {
 
 .Cont-skills {
     padding: 1em;
-    margin: 10px;
-    background-color: #913636;
+    width: 98%;
+    height: 100%;
+    background-color: rgba(146, 4, 4, 0.15);
     border-radius: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -193,14 +195,15 @@ body {
     padding: 2em;
     color: white
 }
-
+#div-exp{
+    height: 100%;
+}
 .box-exp {
     margin: 5px;
-    transform: translate(-50% -50%);
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    height: fit-content;
-    background-color: #913636;
+    height: 100%;
+    background-color: rgba(146, 4, 4, 0.15);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -224,6 +227,7 @@ body {
 }
 
 .textexp {
+    height: 100%;
     color: white;
     text-align: justify;
     padding: 1em;
